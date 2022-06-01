@@ -3,6 +3,8 @@
 
 <details>
     <summary>დავალებები</summary>
+    
+- [Quiz 1](https://forms.gle/oVYFM3JCJ2PS5tqV8)
 </details>
 
 <details>
