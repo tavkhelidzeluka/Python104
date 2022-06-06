@@ -1,6 +1,27 @@
 # Python 104
 
+<details>
+    <summary>თემები</summary>
+    
+### Workshop 4
+----
+**Iterables (list, tuple)**
+- range function
+- min, max
+- list comprehension
+- slicing
+- tuple
 
+**Control Flow**
+- operators (==; !=; <; <=; >=; >)
+- and, or, not operators
+- if statements
+- if else
+- if chaining (if, elif, else)
+- truthy and falsy values
+
+
+</details>
 <details>
     <summary>დავალებები</summary>
     
