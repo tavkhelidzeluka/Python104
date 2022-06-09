@@ -4,7 +4,7 @@
     <summary>თემები</summary>
     
 ### Workshop 4
-----
+---
 **Iterables (list, tuple)**
 - range function
 - min, max
@@ -21,7 +21,7 @@
 - truthy and falsy values
 
 ### Workshop 5
-----
+---
 **While Loop**
 - infinite loop
 - break, continue, else
@@ -38,13 +38,15 @@
 - returning multiple values
 
     
-**Introduction to OOP*
-- defining classes and creating instances
-- writing metods
-- constructor / destructor
+**Introduction to OOP**
+* defining classes and creating instances
+* writing metods
+* dunder methods
+* constructor / destructor
+
     
 ### Workshop 6
-----
+---
 **Working with Files**
 - opening and closing files
 - reading / write / append content
