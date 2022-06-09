@@ -32,6 +32,8 @@
 - parameters vs arguments
 - passing by reference
 - return values
+- arbitrary / non arbitrary parameters
+- default values
 - type hinting | type annotation for functions
 - unpack operator, args, kwargs
 - how to accept only args | only kwargs | only ceratin number of args
