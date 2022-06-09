@@ -20,6 +20,29 @@
 - if chaining (if, elif, else)
 - truthy and falsy values
 
+### Workshop 5
+----
+**While Loop**
+- infinite loop
+- break, continue, else
+    
+**Functions**
+- function body
+- calling functions
+- parameters vs arguments
+- passing by reference
+- return values
+- type hinting | type annotation for functions
+- unpack operator, args, kwargs
+- how to accept only args | only kwargs | only ceratin number of args
+- returning multiple values
+    
+**Working with Files**
+- opening and closing files
+- reading / write / append content
+- open modes (r, +, a, w, b)
+- relative and absolute paths
+- context manager (with statement)
 
 </details>
 <details>
