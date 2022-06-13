@@ -38,17 +38,16 @@
 - unpack operator, args, kwargs
 - how to accept only args | only kwargs | only ceratin number of args
 - returning multiple values
-
     
+### Workshop 6
+---
+
 **Introduction to OOP**
 * defining classes and creating instances
 * writing metods
 * dunder methods
 * constructor / destructor
 
-    
-### Workshop 6
----
 **Working with Files**
 - opening and closing files
 - reading / write / append content
