@@ -55,6 +55,34 @@
 - relative and absolute paths
 - context manager (with statement)
 
+### Workshop 7
+---
+
+**dictionaries | map**
+- dict
+- accessing / updating / deleting / adding dict elements
+- iterating throught dict (keys / values / items)
+- methods (get, pop)
+
+**lambda | anonymus | one line functions**
+- syntax
+- use cases
+    
+**wrappers | decorator functions**
+- syntax
+- use cases
+
+    
+**Introduction to Advanced OOP Topics**
+- static fields and methods
+- inheritance | extending clases
+- polymorphism
+- method overloading
+- multiple inheritance
+- field visibility (public, private, protected)
+- encapsulation
+
+    
 </details>
 <details>
     <summary>დავალებები</summary>
