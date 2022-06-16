@@ -60,6 +60,9 @@
     <summary>დავალებები</summary>
     
 - [Quiz 1](https://forms.gle/oVYFM3JCJ2PS5tqV8)
+- [Quiz 2](https://forms.gle/Vzkf5cuRRa2bLYLm6)
+- [Quiz 2.1](https://forms.gle/KKExAzqt3oyuV6Rj7)
+    
 </details>
 
 <details>
