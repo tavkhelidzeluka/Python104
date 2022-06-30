@@ -2,10 +2,14 @@
 
 <details>
     <summary>თემები</summary>
+ 
+<details>
+<summary>Workshop 4</summary>
     
-### Workshop 4
 ---
+    
 **Iterables (list, tuple)**
+
 - range function
 - min, max
 - list comprehension
@@ -13,6 +17,7 @@
 - tuple
 
 **Control Flow**
+
 - operators (==; !=; <; <=; >=; >)
 - and, or, not operators
 - if statements
@@ -20,8 +25,12 @@
 - if chaining (if, elif, else)
 - truthy and falsy values
 
-### Workshop 5
+</details>
+<details>
+<summary>Workshop 5</summary>
+
 ---
+
 **While Loop**
 - infinite loop
 - break, continue, else
@@ -38,8 +47,11 @@
 - unpack operator, args, kwargs
 - how to accept only args | only kwargs | only ceratin number of args
 - returning multiple values
-    
-### Workshop 6
+</details>
+
+<details>
+<summary>Workshop 6</summary>
+
 ---
 
 **Introduction to OOP**
@@ -55,7 +67,10 @@
 - relative and absolute paths
 - context manager (with statement)
 
-### Workshop 7
+</details>
+<details>
+<summary>Workshop 7</summary>
+
 ---
 
 **dictionaries | map**
@@ -71,8 +86,14 @@
 **wrappers | decorator functions**
 - syntax
 - use cases
+</details>
 
-    
+<details>
+<summary>Workshop 8</summary>
+
+---
+
+   
 **Introduction to Advanced OOP Topics**
 - static fields and methods
 - inheritance | extending clases
@@ -82,7 +103,35 @@
 - field visibility (public, private, protected)
 - encapsulation
 
+
+</details>
     
+<details>
+<summary>Workshop 9</summary>
+
+---
+    
+**Python Packages**
+- what is pip?
+- what is virtualenv?
+
+**Setting Up Development Environment**
+- creating virutal environment *(using virtualenv)*
+- activating virtual environment
+- installing packages inside virtal environment
+- freezing packages to requirements.txt
+
+
+**Introduction To Web Development With Python/Django**
+- How internet works? *(ip, domain, dns, hosting, HTTP)*
+- setting up the project
+- project structure
+- MVT architecture
+- creating first models, views, templates
+    
+</details>
+
+
 </details>
 <details>
     <summary>დავალებები</summary>
