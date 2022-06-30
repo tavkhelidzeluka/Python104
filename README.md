@@ -105,9 +105,32 @@
 
 
 </details>
-
-
     
+<details>
+<summary>Workshop 9</summary>
+
+---
+    
+**Python Packages**
+- what is pip?
+- what is virtualenv?
+
+**Setting Up Development Environment**
+- creating virutal environment *(using virtualenv)*
+- activating virtual environment
+- installing packages inside virtal environment
+- freezing packages to requirements.txt
+
+
+**Introduction To Web Development With Python/Django**
+- How internet works? *(ip, domain, dns, hosting, HTTP)*
+- MVT architecture
+- setting up the project
+- creating first models, views, templates
+    
+</details>
+
+
 </details>
 <details>
     <summary>დავალებები</summary>
