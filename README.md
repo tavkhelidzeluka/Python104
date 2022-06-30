@@ -124,8 +124,9 @@
 
 **Introduction To Web Development With Python/Django**
 - How internet works? *(ip, domain, dns, hosting, HTTP)*
-- MVT architecture
 - setting up the project
+- project structure
+- MVT architecture
 - creating first models, views, templates
     
 </details>
