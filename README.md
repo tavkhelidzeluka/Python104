@@ -131,6 +131,21 @@
     
 </details>
 
+<details>
+<summary>Workshop 10</summary>
+
+---
+    
+**Django Basics**
+- Models
+- Tempates
+- Views
+- Forms
+- request methods (GET, POST)
+- CRUD with function views
+- Update function views to Class views
+    
+</details>
 
 </details>
 <details>
