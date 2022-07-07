@@ -58,7 +58,7 @@
                               </div>
                            </div>
                            <span class="navbar-toggler-icon"></span>
-                           <span onclick="openNav()"><img src="images/toogle-icon.png" class="toggle_menu"></span>
+                           <span onclick="openNav()"><img src="{% static 'images/toogle-icon.png' %}" class="toggle_menu"></span>
                         </div>
                      </ul>
                   </div>
@@ -72,20 +72,19 @@
                   <div class="col-md-6">
                      <div class="banner_taital_section">
                         <h1 class="design_taital">We Do Design Blog For Business</h1>
-                        <div class="contact_bt"><a href="#">Contact Us</a></div>
                      </div>
                   </div>
                   <div class="col-md-6">
                      <div id="main_slider" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                            <div class="carousel-item active">
-                              <div class="banner_img"><img src="images/banner-img.png"></div>
+                              <div class="banner_img"><img src="{% static 'images/banner-img.png' %}"></div>
                            </div>
                            <div class="carousel-item">
-                              <div class="banner_img"><img src="images/banner-img.png"></div>
+                              <div class="banner_img"><img src="{% static 'images/banner-img.png' %}"></div>
                            </div>
                            <div class="carousel-item">
-                              <div class="banner_img"><img src="images/banner-img.png"></div>
+                              <div class="banner_img"><img src="{% static 'images/banner-img.png' %}"></div>
                            </div>
                         </div>
                         <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
@@ -104,13 +103,14 @@
       <!-- header section end -->
       <!-- barber section start -->
       <div class="barber_section layout_padding">
+
          <div class="container">
             {% for post in posts %}
             <div class="braber_taital_main">
                <div class="row">
                   <div class="col-lg-6">
                      <div class="barber_bg_main">
-                        <h1 class="barber_taital">{{ post.name }}</h1>
+                        <h1 class="barber_taital"><a href="{{ post.get_absolute_url }}">{{ post.name }}<a/></h1>
                         <p class="barber_text">{{ post.text }}</p>
                         <div class="blogr_main">
                            <div class="blogr_left">
@@ -119,8 +119,9 @@
                            <div class="blogr_right">
                               <div class="comment_text">
                                  <ul>
-                                    <li><a href="#">Like<span class="padding_10"><i class="fa fa-thumbs-up"></i></span></a></li>
-                                    <li><a href="#">Comment<span class="padding_10"><i class="fa fa-comment"></i></span></a></li>
+                                    <li><a href="#">{{ post.get_likes }}<span class="padding_10"><i class="fa fa-thumbs-up"></i></span></a></li>
+                                    <li><a href="#">{{ post.get_dislikes }}<span class="padding_10"><i class="fa fa-thumbs-down"></i></span></a></li>
+                                    <li><a href="#">{{ post.comment_set.count }}<span class="padding_10"><i class="fa fa-comment"></i></span></a></li>
                                     <li><a href="#">Share<span class="padding_10"><i class="fa fa-share-alt" aria-hidden="true"></i></span></a></li>
                                  </ul>
                               </div>
@@ -130,8 +131,12 @@
                   </div>
                   <div class="col-lg-6">
                      <div class="fashion_img">
-                        <img src="images/img-1.png" class="fashion_img">
-                        <div class="read_bt"><a href="#">04<br>FEB</a></div>
+                        {% if post.image %}
+                        <img src="{{ post.image.url }}" class="fashion_img">
+                        {% else %}
+                        <h3>No Image<h3/>
+                        {% endif %}
+                        <div class="read_bt"><a href="#">{{ post.get_create_date }}</a></div>
                      </div>
                   </div>
                </div>
@@ -289,16 +294,16 @@
       </div>
       <!-- copyright section end -->
       <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <script src="js/plugin.js"></script>
+      <script src="{% static 'js/jquery.min.js' %}"></script>
+      <script src="{% static 'js/popper.min.js' %}"></script>
+      <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+      <script src="{% static 'js/jquery-3.0.0.min.js' %}"></script>
+      <script src="{% static 'js/plugin.js' %}"></script>
       <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
+      <script src="{% static 'js/jquery.mCustomScrollbar.concat.min.js' %}"></script>
+      <script src="{% static 'js/custom.js' %}"></script>
       <!-- javascript --> 
-      <script src="js/owl.carousel.js"></script>
+      <script src="{% static 'js/owl.carousel.js' %}"></script>
       <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
       <script>
          $(document).ready(function(){

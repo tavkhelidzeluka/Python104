@@ -14,7 +14,16 @@ Post Detail View                    - render all details about post with their c
 def home_view(request):
     posts = Post.objects.all()
 
-    return render(request, 'home.html', {
+    return render(request, 'home.html', context={
         'posts': posts
     })
+
+
+def post_detail_view(request, pk: int):
+    post = Post.objects.get(pk=pk)
+
+    return render(request, 'post_details.html', {
+        'post': post
+    })
+
 
