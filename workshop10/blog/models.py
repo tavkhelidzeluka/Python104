@@ -56,6 +56,9 @@ class Post(models.Model):
     def get_absolute_url(self):
         return reverse("blog:post-detail", kwargs={"pk": self.pk})
 
+    def rate_link(self):
+        return reverse("blog:post-rate", kwargs={"pk": self.pk})
+
 
 class Comment(models.Model):
     author = models.ForeignKey(User, on_delete=models.CASCADE)

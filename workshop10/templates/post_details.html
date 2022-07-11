@@ -1,1 +1,14 @@
-{{ post.name }}
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{{ post.name }}</h1>
+
+    {% for comment in post.comment_set.all %}
+    <div style='border: 1px solid black'>
+        <p>{{ comment.create_date }} &mdash; {{ comment.author }}</p>
+        <p>
+            {{ comment.text }}
+        </p>
+    </div>
+    {% endfor %}
+{% endblock content %}
